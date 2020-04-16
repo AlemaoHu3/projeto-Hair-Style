@@ -1,0 +1,168 @@
+header { /* topo da página*/
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    background: #581abc;
+    color: white;
+    font-size: 20px;
+    font-family: 'Questrial';
+}
+h1{
+    font-size: 120%;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+.cabecalho h1 {
+    padding-top:3%;
+    font-size: 270%;
+    text-shadow: 5px 5px 2px black;
+}
+h2{
+    font-size: 110%;
+    padding-bottom: 5px;
+    font-family: 'Dosis', 'Questrial', Helvetica;
+    font-weight: bold;
+}
+p{
+    font-size: 90%;
+}
+.cabecalho p {
+    font-size: 94%;
+    color: white;
+}
+.apresentacao h1{
+    font-size: 140%;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+.apresentacao {
+    text-align: center;
+}
+
+
+
+main {
+    float: right;
+    width: 85%;
+    padding-bottom: 10px;
+}
+
+.introducao {
+    width: 85%;
+    text-align: center;
+}
+.citacao{
+    width: 95%;
+    float: left;
+}
+
+.exemplosImagens {/* 1º lista de imagens */
+    width: 48%;
+    box-sizing: content-box;
+    float: left;
+}  
+.imagem::after {/* manter imagens lado a lado*/
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+body {
+    font-family: 'Questrial', Arial, Helvetica;
+    background-color: #b6b6b6;
+    font-size: 20px;
+    line-height: 1.5;
+}
+.feedback {/* Blockquote, comentários dos clientes*/
+    background-color: #EDEDED;
+    border: 10px solid #C2CCCA;
+    width: 35%;
+    padding:30px;
+    float: left;
+    font-family: 'Charm', Helvetica, sans-serif;
+}
+
+.menu ul {
+    background-color: #EDEDED;
+    text-align: center;
+}
+
+.menu ul li {
+    display: inline; /*Opções do menu lado a lado*/
+}
+
+.menu ul li a {
+    padding: 0px 25px;
+    display: inline-block;
+    background-color: #EDEDED;
+    color: rgb(68, 0, 255);
+    text-decoration: none;
+    border-bottom: 3px solid #EDEDED;
+    border-top: 6px solid #EDEDED;
+    font-size: 18px;
+}
+
+.menu ul li a:hover {/*efeito ao passar o mouse*/
+    background-color: #D6D6D6;
+    color: #6D6D6D;
+    border-bottom: 3px solid #3700ff;
+    border-top: 6px solid #D6D6D6;
+}
+
+
+.conteiner {
+    width: 45%;
+    display: inline-block;
+}
+
+.conteiner2 {
+    width: 45%;
+    float: right;
+}
+
+.exemplosImagens2 {
+    border-radius: 20px 20px 0px 0px;
+    width: 75%;
+    box-sizing: border-box;
+    border-left: 2px solid#581abc;
+    border-bottom: 2px solid #581abc;
+    border-top: 2px solid #581abc;
+    border-right: 2px solid#581abc;
+    float: left;
+}
+
+.texto {
+    text-align: left;
+    width: 74.2%;
+    max-width: auto;
+    border-radius: 20px 20px 8px 8px;
+    border-left: 2px solid#581abc;
+    border-bottom: 2px solid #581abc;
+    border-right: 2px solid#581abc;
+    background-color: #D6D6D6;
+}
+
+.clique {
+    padding: 8px;
+    margin: 16px;
+    font-size: 17px;
+    text-align: center;
+    clear: both;
+}
+
+.footer {
+    background-color: #D6D6D6;
+    clear: both;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    opacity:0.9;
+    padding: 10px;
+}
+
+.footer h2 {
+    color: rgb(68, 0, 255);
+    font-size: 17px;
+    text-align: left;
+}
