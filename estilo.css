@@ -23,7 +23,7 @@ h2{
     font-family: 'Dosis', 'Questrial', Helvetica;
     font-weight: bold;
 }
-p{
+main p{
     font-size: 90%;
 }
 .cabecalho p {
@@ -38,13 +38,10 @@ p{
 .apresentacao {
     text-align: center;
 }
-
-
-
 main {
     float: right;
     width: 85%;
-    padding-bottom: 10px;
+    padding-bottom: 40px;
 }
 
 .introducao {
@@ -99,7 +96,7 @@ body {
     text-decoration: none;
     border-bottom: 3px solid #EDEDED;
     border-top: 6px solid #EDEDED;
-    font-size: 18px;
+    font-size: 100%;
 }
 
 .menu ul li a:hover {/*efeito ao passar o mouse*/
@@ -132,6 +129,7 @@ body {
 }
 
 .texto {
+    font-size: 100%;
     text-align: left;
     width: 74.2%;
     max-width: auto;
@@ -145,7 +143,7 @@ body {
 .clique {
     padding: 8px;
     margin: 16px;
-    font-size: 17px;
+    font-size: 100%;
     text-align: center;
     clear: both;
 }
@@ -163,6 +161,6 @@ body {
 
 .footer h2 {
     color: rgb(68, 0, 255);
-    font-size: 17px;
+    font-size: 25px;
     text-align: left;
 }
